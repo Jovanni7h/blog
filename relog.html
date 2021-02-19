@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Personal con Js</title>
+    <!--Estilos css-->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <!-- Bootstrap -->
+    <link
+      id="theme"
+      rel="stylesheet"
+      type="text/css"
+      href="./css/stylesTheme.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Moment -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="selectorTheme">
+      <div id="dark"></div>
+      <div id="ligth"></div>
+    </div>
+    <section id="global">
+      <!-- Header -->
+      <header>
+        <div id="logo">
+          <h1>Proyecto JS</h1>
+        </div>
+        <div class="clearfix"></div>
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="relog.html">Relog</a></li>
+            <li><a href="about.html">Sobre mi</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Header -->
+
+      <!-- Contenido -->
+      <section id="content">
+        <div id="box">
+          <!-- Cargar relog -->
+          <div id="relog"></div>
+        </div>
+
+        <aside id="sidebar">
+          <div id="about">
+            <h4><span>¿Quien soy?</span></h4>
+            <img src="./img/caracol.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              malesuada enim et diam pretium, in imperdiet sapien posuere.
+              Phasellus eu sem nec metus lacinia tempus eu vitae tellus.
+            </p>
+          </div>
+          <div id="login">
+            <h4><span>Identificate</span></h4>
+            <form>
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="alias"
+                />
+                <label for="name">Nombre</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emal"
+                  name="email"
+                  placeholder="@"
+                />
+                <label for="email">Email</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  placeholder="pass"
+                />
+                <label for="password">Contraseña</label>
+              </div>
+
+              <input
+                type="submit"
+                class="btn btn-outline-success"
+                value="Entrar"
+              />
+            </form>
+          </div>
+        </aside>
+        <div class="clearfix"></div>
+      </section>
+      <!-- Contenido -->
+    </section>
+
+    <div class="container mt-3">
+      <div class="row">
+        <a href="#" class="up d-flex justify-content-center">
+          <img src="img/up.svg" />
+        </a>
+      </div>
+    </div>
+
+    <footer id="footer">JavaScript</footer>
+  </body>
+</html>

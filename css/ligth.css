@@ -1,0 +1,88 @@
+body {
+  /* background: url('../img/hojas.jpg'); */
+  background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+}
+
+#logo {
+ background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+#menu{
+   background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+#menu ul li:hover {
+  background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.button-more {
+  background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.button-more:hover {
+  background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black
+}

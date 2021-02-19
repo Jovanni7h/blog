@@ -1,0 +1,29 @@
+
+body{
+  /* background: url('../img/hojas.jpg'); */
+  background-image: radial-gradient(circle at 50.65% 49.7%, #898589 0, #818181 7.14%, #787c7a 14.29%, #6c7672 21.43%, #5e706b 28.57%, #4d6964 35.71%, #3a615e 42.86%, #1f5959 50%, #005055 57.14%, #004853 64.29%, #004152 71.43%, #003a53 78.57%, #003453 85.71%, #002e54 92.86%, #002a55 100%);
+  background-attachment: fixed;
+}
+
+#logo{
+  background-image: radial-gradient(circle at 50.65% 49.7%, #898589 0, #818181 7.14%, #787c7a 14.29%, #6c7672 21.43%, #5e706b 28.57%, #4d6964 35.71%, #3a615e 42.86%, #1f5959 50%, #005055 57.14%, #004853 64.29%, #004152 71.43%, #003a53 78.57%, #003453 85.71%, #002e54 92.86%, #002a55 100%);
+}
+
+#menu{
+  background: #333;
+}
+
+#menu ul li:hover{
+  background: rgba(0, 0, 0, .5);
+}
+
+
+.button-more{
+  background: #333;
+}
+
+
+.button-more:hover{
+  background: rgba(0, 0, 0, .7);
+  color: white;
+}
